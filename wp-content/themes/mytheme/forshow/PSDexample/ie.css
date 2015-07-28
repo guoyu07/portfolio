@@ -1,0 +1,22 @@
+input[type="text"]{
+	line-height: 2;
+}
+
+.block{
+	border:1px solid #ccc;
+}
+
+
+.block.search form > input[type="text"]{
+	*width:137px;
+}
+
+
+.block.search form > button {
+	*top:7px;
+}
+
+.pagination{
+	*margin-top: 20px;
+	display: inline;
+}

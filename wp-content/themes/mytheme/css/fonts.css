@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'academyi';
+	src: url('../fonts/academyi/academyi.eot');
+	src: url('../fonts/academyi/academyi.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/academyi/academyi.woff') format('woff'),
+		 url('../fonts/academyi/academyi.ttf') format('truetype'),
+		 url('../fonts/academyi/academyi.svg#academyi') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+header h3,footer h3,.item h3, form h3{
+	font-family: 'academyi';
+}
+
+.list_wrap a,footer h3{
+	color:#808080;
+}
+
+footer span{
+	font:  Italic bold 14px Arial;
+	letter-spacing: 1px;
+}
+

@@ -1,0 +1,89 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.left,.right{
+		width: 100%;
+	}
+	.left,.right,.center{text-align: center;}
+	.h_middle{margin-top: 10px;}
+	.item{width: 48.5%;}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.h_middle .center{	
+		text-align: center;
+	}
+	.basket{width:100%;}
+	.item{width: 47.5%;}		
+	
+	.h_middle .mar button{float:none;}
+	header{margin-top: 10px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.h_middle .mar {padding-top: 0px}
+	.h_middle button {margin-top: 2px;}
+	.item{width: 46.5%;}
+	.descr,.sidebar{text-align: center;}
+	.sidebar .list ul {margin-left: 0px;
+}
+	.sandwich-wrapper{height:50px;}
+	.h_mnu .mobil_hidden .hov{
+		display: none;
+	}
+	.sandwich-wrapper{
+		display: block;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.h_mnu .basket p img{
+		display: none;
+	}
+	.h_mnu .basket p {
+		margin-left: 60px;
+	}
+		.h_middle img{
+		width: 90%;
+	}
+	.h_middle button{height: 25px;}
+	.item{width: 98%;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.h_middle button{margin-top: 10px;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

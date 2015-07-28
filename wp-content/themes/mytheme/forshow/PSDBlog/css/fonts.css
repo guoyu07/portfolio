@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'HelveticaNeueLTStdLt';
+	src: url('../fonts/helvetica neue/HelveticaNeueLTStdLt.eot');
+	src: url('../fonts/helvetica neue/HelveticaNeueLTStdLt.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/helvetica neue/HelveticaNeueLTStdLt.woff') format('woff'),
+		 url('../fonts/helvetica neue/HelveticaNeueLTStdLt.ttf') format('truetype'),
+		 url('../fonts/helvetica neue/HelveticaNeueLTStdLt.svg#HelveticaNeueLTStdLt') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+a,
+.header_mnu,
+.copyright,
+.slider_text{
+	font-size: 20px;
+	font-family: 'HelveticaNeueLTStdLt';
+	font-weight: bold;
+}
+footer a, footer .copyright{
+	font-weight: normal;
+} 
+.header_mnu{
+	font-size: 14px;
+	font-weight: 400;
+	}

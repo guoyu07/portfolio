@@ -1,0 +1,181 @@
+.hero .text_wrap a:hover, .hero .text_wrap .active {
+  background-color: #0090bf;
+  box-shadow: 0px 1px 1px #02759a;
+  -moz-box-shadow: 0px 1px 1px #02759a;
+  -webkit-box-shadow: 0px 1px 1px #02759a;
+  -khtml-box-shadow: 0px 1px 1px #02759a; }
+
+.top_line nav li, .content, .content section .column, .content aside, .secondary_cta {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #ccc;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px; }
+
+header, .content, .secondary_cta, footer {
+  width: 1020px;
+  margin: 0 auto; }
+
+.top_line {
+  height: 50px;
+  background-color: #000; }
+  .top_line a {
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px; }
+  .top_line nav {
+    float: right; }
+    .top_line nav li {
+      display: inline-block;
+      height: 50px;
+      border-left: 1px solid #333; }
+      .top_line nav li a {
+        margin: 15px 20px 0;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        height: 100%; }
+        .top_line nav li a:hover {
+          color: #00c0ff; }
+
+.hero {
+  height: 330px;
+  background-color: #00c0ff;
+  position: relative; }
+  .hero .text_wrap {
+    display: inline-block;
+    margin: 70px 0 0 40px;
+    color: #222; }
+    .hero .text_wrap h1 {
+      font-size: 48px;
+      line-height: 18px;
+      margin-bottom: 30px; }
+    .hero .text_wrap h2 {
+      font-size: 24px;
+      line-height: 18px;
+      margin-bottom: 40px; }
+    .hero .text_wrap a {
+      line-height: 18px;
+      color: #fff;
+      display: inline-block;
+      padding: 25px;
+      text-decoration: none; }
+    .hero .text_wrap .btn_large {
+      font-size: 24px; }
+    .hero .text_wrap .btn_secondary {
+      padding: 28px 27px 26px 27px;
+      line-height: 14px;
+      font-size: 20px; }
+  .hero img {
+    position: absolute;
+    right: 40px;
+    bottom: -55px; }
+
+#move {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s; }
+
+.content {
+  padding: 90px 40px;
+  background-color: #fff; }
+  .content section {
+    width: 705px;
+    display: inline-block;
+    color: #444;
+    after-content: "";
+    after-display: table;
+    after-clear: both; }
+    .content section h3 {
+      font-size: 30px;
+      line-height: 18px;
+      margin-bottom: 20px; }
+    .content section p {
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 20px; }
+    .content section .column {
+      width: 220px;
+      float: left;
+      margin-right: 15px; }
+      .content section .column img {
+        margin-bottom: 15px; }
+      .content section .column h4 {
+        margin-bottom: 15px;
+        font-size: 18px; }
+      .content section .column p {
+        font-size: 14px; }
+  .content aside {
+    float: right;
+    padding: 30px 30px;
+    background-color: #444;
+    color: #fff;
+    width: 220px; }
+    .content aside .widget h4 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      line-height: 18px; }
+    .content aside .widget a {
+      margin-right: 10px; }
+    .content aside .widget p {
+      margin-bottom: 20px; }
+
+.secondary_cta {
+  padding: 30px 30px;
+  background-color: #eee;
+  position: relative; }
+  .secondary_cta h4 {
+    display: inline-block;
+    font-size: 22px;
+    color: #333; }
+  .secondary_cta form {
+    display: inline-block;
+    margin-left: 15px;
+    position: absolute;
+    right: 30px;
+    top: 20px; }
+    .secondary_cta form button {
+      border: 1px solid #006281;
+      background-color: #0090bf;
+      color: #fff;
+      font-size: 14px;
+      padding: 7px 20px 8px;
+      position: relative;
+      left: -7px;
+      top: -2px; }
+      .secondary_cta form button:active {
+        border: 1px solid #fff; }
+    .secondary_cta form input {
+      background-color: #fff;
+      font-size: 18px;
+      color: #aaa;
+      width: 220px;
+      border: 1px solid #ccc;
+      padding: 6px 10px 6px 10px; }
+
+footer {
+  background-color: #444;
+  font-size: 14px;
+  color: #fff; }
+  footer p {
+    display: inline-block;
+    padding: 50px 0 50px 40px; }
+  footer nav {
+    float: right;
+    padding: 50px 40px 50px 0; }
+    footer nav li {
+      display: inline-block;
+      margin-left: 20px; }
+      footer nav li a {
+        color: #fff;
+        text-decoration: none; }
+        footer nav li a:hover {
+          color: #00c0ff; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Резиновый шаблон с двумя колонками</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+	 <!--[if (ie 7) | (ie 8)]><link rel="stylesheet" href="ie.css"><![endif]-->
+	 <!--[if (ie 7) | (ie 8)]><link rel="stylesheet" href="ie.css"><![endif]-->
+</head>
+<body>
+	<div id="wrap">
+		<div class="mobile_mnu">
+				<input type="checkbox" id="tab">
+				<label for="tab">menu</label>
+				<div>
+					<ul>
+						<li><a href="#">каталог</a></li>
+						<li><a href="#">скидки и акции</a></li>
+						<li><a href="#">прайс-лист</a></li>
+						<li><a href="#">о нас</a></li>
+						<li><a href="#">блог</a></li>
+						<li><a href="#">контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		<!--Шапка-->
+		<div id="header">
+			<div class="content">
+				<div class="logo">
+					<a href="#"><img src="img/logo2.png" alt=""></a>
+				</div>
+				<div class="contacts">
+					<p><span class="green">Телефон:</span> 8 800 2000 01 01<br><span class="gray">звонок бесплатный</span></p>
+					<p><span class="green">E-mail:</span> example@gmail.com</p>
+					<p>
+						<a href="#"><img src="img/vk.png" alt=""></a>
+						<a href="#"><img src="img/fb.png" alt=""></a>
+						<a href="#"><img src="img/tw.png" alt=""></a>
+						<a href="#"><img src="img/gp.png" alt=""></a>
+					</p>
+						
+				</div>
+			</div>
+		</div>
+		<!--Навигация-->
+		<div class="navigation">
+			<ul>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Блог</a></li>
+				<li><a href="#">Скидки и акции</a></li>
+				<li><a href="#">Прайс-лист</a></li>
+				<li><a href="#">О компании</a>
+					<ul>
+						<li><a href="#">Для рекламодателей</a></li>
+						<li><a href="#">Для покупателей</a></li>
+						<li><a href="#">Вакансии</a></li>
+					</ul>
+				</li>	
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+
+		<!--Навигация-->
+		<!--Контент-->
+		<div id="content">
+			<!--Левая колонка-->
+			<div id="leftcol">
+				<!-- корзина -->
+				<div class="block basket">
+					<div class="header">Корзина</div>
+					<div class="content">
+						<p>В Вашей корзине:<br>нет товаров</p>
+					</div>
+				</div>
+			
+				<!-- поиск по каталогу -->
+				<div class="block search">
+					<div class="header">Поиск по катологу</div>
+					<div class="content">
+						<form action="">
+							<input type="text" >
+							<button >Найти</button>
+							<p class="description">Название товара</p>
+						</form>
+					</div>
+				</div>
+			
+<!-- категории товаров -->
+				<div class="block category">
+					<div class="header">Категории товаров</div>
+					<ul class="v-menu">
+						<li><a href="#">Благоустройство участков</a></li>
+						<li><a href="#">Внешняя отделка</a></li>
+						<li><a href="#">Внутренняя отделка</a></li>
+						<li><a href="#">Кровля</a></li>
+						<li><a href="#">Металлоконструкции</a></li>
+						<li><a href="#">Окна и двери</a></li>
+						<li><a href="#">Осветительное оборудование</a></li>
+						<li><a href="#">Спецтехника</a></li>
+						<li><a href="#">Строительный инструмент</a></li>
+						<li><a href="#">Цемент и бетон</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--Контент-->
+			<div id="main">
+				
+					<h1>Строительные материалы и оборудование</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <a href="#">cillum dolore eu fugiat nulla pariatur</a>. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<!-- популярные товары	 -->
+
+				<div class="product-list">
+					<h2>Популярные товары</h2>
+					<div class="item_wrap"><div class="product-item">
+						<p class="name">Наименование товара<br>в две строки</p>
+						<p class="photo">
+							<img src="img/photo.jpg" alt="">
+						</p>
+						<p class="desc">Краткое описание<br> в две строки</p>
+						<p class="price">30 000 руб.</p>
+						<p class="button"><button class="green">В корзину</button></p>
+					</div>	</div>
+					<div class="item_wrap">
+						<div class="product-item">
+							<p class="name">Наименование товара</p>
+							<p class="photo">
+								<img src="img/photo.jpg" alt="">
+							</p>
+							<p class="desc">Краткое описание<br> в две строки</p>
+							<p class="price">30 000 руб.</p>
+							<p class="button"><button class="green">В корзину</button></p>
+						</div>
+					</div>
+					<div class="item_wrap">
+						<div class="product-item">
+							<p class="name">Наименование товара</p>
+							<p class="photo">
+								<img src="img/photo.jpg" alt="">
+							</p>
+							<p class="desc">Краткое описание<br> в две строки</p>
+							<p class="price">30 000 руб.</p>
+							<p class="button"><button class="green">В корзину</button></p>
+						</div>
+					</div>
+					<div class="item_wrap">
+						<div class="product-item">
+							<p class="name">Наименование товара</p>
+							<p class="photo">
+								<img src="img/photo.jpg" alt="">
+							</p>
+							<p class="desc">Краткое описание<br> в две строки</p>
+							<p class="price">30 000 руб.</p>
+							<p class="button"><button class="green">В корзину</button></p>
+						</div>
+					</div>
+					<div class="item_wrap">
+						<div class="product-item">
+							<p class="name">Наименование товара<br>в две строки</p>
+							<p class="photo">
+								<img src="img/photo.jpg" alt="">
+							</p>
+							<p class="desc">Краткое описание<br> в две строки</p>
+							<p class="price">30 000 руб.</p>
+							<p class="button"><button class="green">В корзину</button></p>
+						</div>
+					</div>
+					<div class="item_wrap">
+						<div class="product-item">
+							<p class="name">Наименование товара</p>
+							<p class="photo">
+								<img src="img/photo.jpg" alt="">
+							</p>
+							<p class="desc">Краткое описание<br> в две строки<br>в три строки</p>
+							<p class="price">30 000 руб.</p>
+							<p class="button"><button class="green">В корзину</button></p>
+						</div>
+					</div>
+
+				</div>
+<!-- постраничная навигация	 -->
+				<ul class="pagination">
+					<li class="disabled">Предыдущая</li>
+					<li class="active"><a href="">1</a></li>
+					<li ><a href="">2</a></li>
+					<li ><a href="">3</a></li>
+					<li ><a href="">Следующая</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--Подвал-->
+		<div id="footer">
+			<div class="content">
+				<div class="left">
+					<a href="#">Блог</a>
+					<a href="#">О компании</a>
+					<a href="#">Контакты</a>
+					<a href="#">FAQ</a>
+				</div>
+				<div class="count">
+					<img src="img/count.jpg" alt="">
+				</div>
+			</div>
+				<p>Copyright © example.com 2014</p>
+		</div>
+	</div>
+</body>
+</html>
